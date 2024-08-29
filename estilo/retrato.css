@@ -19,33 +19,37 @@
     
     header{
         background-color: rgb(19, 19, 19);
-        height: 200px;
+        height: 90px;
         width: 100vw;
         color: white;
     }
      header > h1{
-        font-size: 75px;
+        padding-left: 10px;
+        font-size: 45px;
         font-family: fantasy;
-        padding-top: 50px;
-        text-align: center;
+        padding-top: 12px;
+        text-align: left;
         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
     }
     
     nav{
         text-align: center;
         background-color:rgb(15, 15, 15);
-        height: 25px;
+        height: 45px;
+        padding-top: 5px;
+        margin-top:-1px;
        
         text-decoration: none;
-        padding: 15px;
+        padding: 0px;
     }
     nav > a{ 
        
         margin-left: 17px;
-        font-size: 25px;
+        font-size: 27px;
+        margin-top:30px;
         color: white;
         text-decoration: none;
-        font-family: cursive;
+        font-family: fantasy;
         text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.589);
     }
     nav > a:hover{
@@ -69,28 +73,28 @@
     }
     div{
         background-color: rgba(41, 41, 41, 0.281);
-        height: 250px;
-        width: 200px;
+        height: 180px;
+        width: 190px;
         display: inline-block;
-        margin: 10px;
-        margin-left: 25px;
-        margin-top: 30px;
+    
+        
         border-radius: 20px;
         text-align: center;
+        margin: auto;
         
     } 
     div > img{
         box-shadow:0px 0px 8px rgba(0, 0, 0, 0.712) ;
         margin-top: 40px;
         border-radius: 20px;
-        height: 150px;
-        width: 140px;
+        height: 100px;
+        width: 100px;
         border: 4px solid white;
     }
     div > p{
         color: white;
-        margin-top: 10px;
-        font-size: 25px;
+        margin-top: 5px;
+        font-size: 15px;
         font-family: fantasy;
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
         
