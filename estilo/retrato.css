@@ -2,7 +2,7 @@
 
 /*TELAS EM PE*/
 
-@media screen and (min-width:480px) and (max-width: 767px) {
+@media screen and (min-width:1280px) and (max-width: 720px) {
     
     *{
         margin: 0px;
