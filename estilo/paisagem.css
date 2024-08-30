@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*TELA DEITADA*/
 
-@media screen and (min-width: 767px) and (max-width:979px) {
+@media screen  and (min-width:521px)and (max-width:978px) {
     *{
         margin: 0px;
         padding: 0px;
-        
+        font-family: Arial, Helvetica, sans-serif;
     }
     body{
         background-image: url(../fundo/1628041028-webpnet-compress-image.jpg.jpeg);
@@ -17,77 +17,87 @@
     
     header{
         background-color: rgb(19, 19, 19);
-        height: 200px;
+        height: 100px;
+        width: 100%;
         color: white;
     }
      header > h1{
-        font-size: 75px;
+        padding-left: 40px;
+        font-size: 60px;
         font-family: fantasy;
-        padding-top: 50px;
-        text-align: center;
+        padding-top: 12px;
+        text-align: left;
         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
     }
     
     nav{
         text-align: center;
         background-color:rgb(15, 15, 15);
-        height: 25px;
-       
+        height: 43px;
+        
+        
         text-decoration: none;
-        padding: 15px;
+        
     }
     nav > a{ 
-       
+    
         margin-left: 17px;
-        font-size: 25px;
+        font-size: 20px;
+        margin-top:90px;
         color: white;
+        margin-right: 60px;
         text-decoration: none;
-        font-family: cursive;
+        font-family: fantasy;
         text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.589);
     }
     nav > a:hover{
-        background-color:rgb(255, 255, 255);
+        background-color:rgba(255, 255, 255, 0.596);
         border-radius: 2px;
         color: rgb(0, 0, 0);
-    }
     
+    }
     main{
-        background-color: rgb(5, 5, 5);
+        background-color: rgb(43, 43, 43);
         
-        width: 495px;
+        width: 95%;
         height: 100%;
         margin-bottom: 40px;
         margin: auto;
         margin-bottom: 30px;
         padding-bottom: 6px;
-        margin-top: 6px;
+        
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
-        border-radius: 20px 20px;
+        border-radius: 0px 0px 20px 20px;
     }
     div{
-        background-color: rgba(41, 41, 41, 0.281);
-        height: 250px;
-        width: 200px;
+        background-color: rgba(22, 22, 22, 0.425);
+        height: 400px;
+        width: 350px;
+        padding-bottom: 25px;
+        margin-left: 80px;
         display: inline-block;
-        margin: 10px;
-        margin-left: 25px;
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         border-radius: 20px;
         text-align: center;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+       
         
     } 
     div > img{
         box-shadow:0px 0px 8px rgba(0, 0, 0, 0.712) ;
-        margin-top: 40px;
+        margin-top:50px ;
         border-radius: 20px;
-        height: 150px;
-        width: 140px;
-        border: 4px solid white;
+        height: 300px;
+        width: 250px;
+
+       
+        border: 2px solid white;
     }
     div > p{
         color: white;
-        margin-top: 10px;
-        font-size: 25px;
+        margin-top: 5px;
+        font-size:2em;
         font-family: fantasy;
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
         
@@ -95,14 +105,118 @@
     
     div:hover{
         background-color: rgba(0, 0, 0, 0.514);
-        border: 1px solid rgba(255, 255, 255, 0.315);
+        border: 1px solid rgb(255, 255, 255);
         
         
-    }body{
-        background-color: black;
     }
 }
 
 @media screen and (min-width:979px) and (max-width:2000px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-image: url(../fundo/1628041028-webpnet-compress-image.jpg.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
     
+    header{
+        background-color: rgb(19, 19, 19);
+        height: 100px;
+        width: 100%;
+        color: white;
+    }
+     header > h1{
+        padding-left: 40px;
+        font-size: 60px;
+        font-family: fantasy;
+        padding-top: 12px;
+        text-align: left;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
+    }
+    
+    nav{
+        text-align: right;
+        background-color:rgb(15, 15, 15);
+        height: 43px;
+        
+        
+        text-decoration: none;
+        
+    }
+    nav > a{ 
+    
+        margin-left: 17px;
+        font-size: 20px;
+        margin-top:90px;
+        color: white;
+        margin-right: 60px;
+        text-decoration: none;
+        font-family: fantasy;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.589);
+    }
+    nav > a:hover{
+        background-color:rgba(255, 255, 255, 0.596);
+        border-radius: 2px;
+        color: rgb(0, 0, 0);
+    
+    }
+    main{
+        background-color: rgb(43, 43, 43);
+        
+        width: 89%;
+        height: 100%;
+        margin-bottom: 40px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding-bottom: 6px;
+        
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+        border-radius: 0px 0px 20px 20px;
+    }
+    div{
+        background-color: rgba(22, 22, 22, 0.425);
+        height: 400px;
+        width: 350px;
+        padding-bottom: 25px;
+        margin-left: 80px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.267);
+       
+        
+    } 
+    div > img{
+        box-shadow:0px 0px 8px rgba(0, 0, 0, 0.712) ;
+        margin-top:50px ;
+        border-radius: 20px;
+        height: 300px;
+        width: 250px;
+
+       
+        border: 2px solid white;
+    }
+    div > p{
+        color: white;
+        margin-top: 5px;
+        font-size:2em;
+        font-family: fantasy;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+        
+    }
+    
+    div:hover{
+        background-color: rgba(0, 0, 0, 0.514);
+        border: 1px solid rgb(255, 255, 255);
+        
+        
+    }
 }
