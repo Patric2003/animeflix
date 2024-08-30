@@ -2,7 +2,7 @@
 
 /*TELAS EM PE*/
 
-@media screen and (max-width: 520px)  {
+
     
     *{
         margin: 0px;
@@ -28,7 +28,7 @@
         font-size: 40px;
         font-family: fantasy;
         padding-top: 12px;
-        text-align: left;
+        text-align: center;
         text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.589);
     }
     
@@ -112,4 +112,3 @@
     }
     
    
-}

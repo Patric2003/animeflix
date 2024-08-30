@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*TELA DEITADA*/
 
-@media screen  and (min-width:521px)and (max-width:978px) {
+@media screen and (min-width: 768px) and (max-width:992px){
     *{
         margin: 0px;
         padding: 0px;
@@ -63,7 +63,7 @@
         height: 100%;
         margin-bottom: 40px;
         margin: auto;
-        margin-bottom: 30px;
+        margin-top: 20px;
         padding-bottom: 6px;
         
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
@@ -111,7 +111,7 @@
     }
 }
 
-@media screen and (min-width:979px) and (max-width:2000px) {
+@media screen and (min-width: 992px){
     *{
         margin: 0px;
         padding: 0px;
