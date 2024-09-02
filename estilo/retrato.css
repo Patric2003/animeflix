@@ -85,7 +85,7 @@
        
         
     } 
-    div > img{
+    a > img{
         box-shadow:0px 0px 8px rgba(0, 0, 0, 0.712) ;
         margin-top:10px ;
         border-radius: 20px;
@@ -96,6 +96,7 @@
         border: 2px solid white;
     }
     div > p{
+        text-decoration: none;
         color: white;
         margin-top: 5px;
         font-size:1.3em;
@@ -103,7 +104,7 @@
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
         
     }
-    
+   
     div:hover{
         background-color: rgba(0, 0, 0, 0.514);
         border: 1px solid rgba(255, 255, 255, 0.315);
